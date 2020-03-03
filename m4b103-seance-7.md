@@ -74,7 +74,7 @@ pour envoyer les datas vous pouvez utiliser:
 
 ```text
 ...
-Framework7.request.get('http://149....82/mmiTrack/save.php?latitude=48...&lat=...&id=1', function(data) {...});
+Framework7.request.get('http://149....82/mmiTrack/save.php?longi=48...&lat=...&id=1', function(data) {...});
 ...
 ```
 
