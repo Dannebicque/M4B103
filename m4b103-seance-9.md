@@ -9,8 +9,8 @@ description: Séance Avec David Annebicque
 * Sécurisation des échanges avec l'API
 * Authentification
 
-{% hint style="info" %}
-Finir la séance 6
+{% hint style="warning" %}
+Finir la séance 6, et recopier les URL et données à envoyer au format JSON dans un fichier texte qui sera déposé en fin de séance sur Moodle
 {% endhint %}
 
 ## JWT
@@ -147,9 +147,11 @@ Suivez la dernière partie de la documentation de Api Platform, pour intégrer l
 
 ### Exercice :
 
-Trouver l'URL et les données à envoyer depuis PostMan pour obtenir un token JWT. Vous recopierez les éléments nécessaires dans un fichier texte qui sera à déposer sur Moodle en fin de séance.
+Trouver l'URL et les données à envoyer depuis PostMan pour obtenir un token JWT. Cette information sera  nécessaire pour le fonctionnement de votre application.
 
-Cette information sera aussi nécessaire pour le fonctionnement de votre application.
+{% hint style="warning" %}
+Vous recopierez les éléments nécessaires dans un fichier texte qui sera à déposer sur Moodle en fin de séance.
+{% endhint %}
 
 {% hint style="info" %}
 Si vous rencontrez le message d'erreur "401 : JWT Not Found", et que vous utilisez Apache,
