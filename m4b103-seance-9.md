@@ -2,7 +2,7 @@
 description: Séance Avec David Annebicque
 ---
 
-# M4B103-seance-9 \(16 Mars 9h30\)
+# M4B103-seance-9 \(16 Mars\)
 
 ## Objectifs
 

@@ -10,7 +10,13 @@ Nous considérerons que la partie boussole fonctionne. voir la video de correcti
 
 ### Exercice 2: Gestion du timer avec le bouton d'activation du traker
 
-pour l'instant nous allons tester la gestion de la sauvegarde des coordonnées GPS quand on active le bouton "traquer". 
+pour l'instant nous allons tester la gestion de la sauvegarde des coordonnées GPS quand on active le bouton "traquer" \(dans le fichier index.html\). 
+
+```text
+...
+traquer <input type="checkbox" id="traker"> 
+...
+```
 
 
 
@@ -23,18 +29,13 @@ faite un timer \(toutes les 30s\) qui enverra au final les coordonnées GPS vers
 utiliser :
 
 ```text
+var i=0;
 setInterval(function(){
-  navigator.geolocation.getCurrentPosition(maPosition);
+    $('#zoneinfo').html("ça marche :"+i);
+    i++;
+},5000);
 
-},30000);
 
-function maPosition(position) {
-// position GPS récupérée
-...
-... position.coords.latitude ...
-... position.coords.longitude ...
-...
-}
 ```
 
 vérifiez bien que votre timer fonctionne en lui faisant écrire dans une zone "texte" de votre application. Ici toute les 5s, on va écrire l'état de la checkbox dans la zone de text \#zoneinfo
