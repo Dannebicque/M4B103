@@ -9,7 +9,7 @@
 * [M4B103-seance-6 \(2 mars\)](m4b103-seance-6.md)
 * [M4B103-seance-7 \(2 mars\)](m4b103-seance-7.md)
 * [M4B103-seance-8 \(3 mars\)](m4b103-seance-8.md)
-* [M4B103-seance-9 \*](m4b103-seance-9.md)
+* [M4B103-seance-9 \(16 Mars\)](m4b103-seance-9.md)
 * [M4B103-seance-10 \*](m4b103-seance-10.md)
 * [M4B103-seance-11 \*](m4b103-seance-11.md)
 * [M4B103-seance-12 \*](m4b103-seance-12.md)
