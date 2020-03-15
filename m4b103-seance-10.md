@@ -6,7 +6,7 @@ description: poursuite de la séance du 3 mars (App mobile)
 
 ### Exercice 1: Remise à plat de la partie front
 
-Nous considérerons que la partie boussole fonctionne. voir la video de correction:
+Nous considérerons que la partie boussole fonctionne. voir la video de correction: xxxxxxx
 
 ### Exercice 2: Gestion du timer avec le bouton d'activation du traker
 
@@ -18,15 +18,17 @@ traquer <input type="checkbox" id="traker">
 ...
 ```
 
-
+video de demo du resultat boussole: [https://youtu.be/ZfUWaVEZzak](https://youtu.be/ZfUWaVEZzak)
 
 ![](.gitbook/assets/img_8922.jpg)
 
 ### mise en place de la sauvegarde toute les 30s \(mettre 5s pour les tests\)
 
+ce que vous devrez obtenir à la fin de cette séance: [https://youtu.be/KLw5z\_e6kBQ](https://youtu.be/KLw5z_e6kBQ)
+
 faite un timer \(toutes les 30s\) qui enverra au final les coordonnées GPS vers votre serveur.
 
-utiliser :
+premier test :
 
 ```text
 var i=0;
@@ -38,7 +40,7 @@ setInterval(function(){
 
 ```
 
-vérifiez bien que votre timer fonctionne en lui faisant écrire dans une zone "texte" de votre application. Ici toute les 5s, on va écrire l'état de la checkbox dans la zone de text \#zoneinfo
+vérifiez bien que votre timer fonctionne en lui faisant écrire dans une zone "texte" de votre application. Ici toute les 5s, ensuite on va écrire l'état de la checkbox dans la zone de text \#zoneinfo
 
 ```text
 setInterval(function(){
@@ -86,36 +88,57 @@ vous devez donc voir apparaitre vos coordonnées dans la zone \#zoneinfo mais un
 
 ### Sauvegarde des coordonnées dans la base de données.
 
-pour cela vous pouvez appeler votre API de mise à jours de la table coordonnées. ou au moins pour faire vos tests appeler "http://MONIP/mmitraceur/save.php?longitude=48.5423&latitude=4.6432&iduser=1". Dans ce cas, faites le fichier save.php qui sauve ces infos dans votre table coordonnées. 
+pour cela vous pouvez appeler votre API de mise à jours de la table coordonnées. 
 
-Nous allons ici travailler sans l'API \(nous reprendons la version API plus tard\)
+Ou au moins pour faire vos tests appeler "http://MONIP/mmitraceur/save.php?longitude=48.5423&latitude=4.6432&iduser=1". Dans ce cas, faites le fichier save.php qui sauve ces infos dans votre table coordonnées. 
 
-pour envoyer les datas vous pouvez utiliser:
+Nous allons ici travailler sans l'API \(nous reprendrons la version API plus tard\)
+
+fichier save.php
+
+```text
+<?php
+
+$bdd = new PDO(...);
+
+$iduser = $_GET['iduser'];
+
+$long=$_GET['...'];
+
+$...=$_GET['...'];
+
+$requete="INSERT INTO traceur(participeid_id,longitude,latitude) VALUES($iduser,'$long','$lat')";
+
+echo "sauvegarde faite";
+
+$bdd->query($requete);
+
+?>
+```
+
+tester le bon fonctionnement de votre miniAPI \(save.php\) directement avec une url:
+
+[http://xxxxx/mmiTrack/save.php?long=55&lat=33&iduser=1](http://149.91.88.82/fabrice/mobile/mmiTrack/save.php?long=55&lat=33&iduser=1)
+
+### sauvegarde via l'application
+
+pour envoyer les datas dans votre application vous pouvez utiliser:
 
 ```text
 ...
-Framework7.request.get('http://149....82/mmiTrack/save.php?longi=48...&lat=...&id=1', function(data) {...});
+Framework7.request.get('http://149....82/mmiTrack/save.php?longi=48...&lat=...&iduser=1', function(data) {...});
 ...
 ```
 
-ajouter un checkbox sur votre appli mobile pour activer ou non la sauvegarde des coordonnées GPS vers votre VPS
+pour l'Id de l'utilisateur nous allons pour l'instant mettre toujours 1. \(nous allons traquer un seul utilisateur pour l'instant\)
 
-![](.gitbook/assets/img_8922.jpg)
+le resultat à avoir: [https://youtu.be/KLw5z\_e6kBQ](https://youtu.be/KLw5z_e6kBQ)
 
-testez la valeur de ce bouton dans votre timer
+### A rendre en fin de seance par email
 
+un fichier zip contenant:
 
+un screenshot de votre environnement de dev Monaca ouvert avec votre app.js
 
-```text
-setInterval(function(){
-  navigator.geolocation.getCurrentPosition(maPosition);
-
-},30000);
-
-function maPosition(position) {
-
-//...
-console.log();
-}
-```
+le fichier index.html et le fichier app.js
 
