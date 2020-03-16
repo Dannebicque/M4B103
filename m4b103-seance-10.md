@@ -134,7 +134,7 @@ pour l'Id de l'utilisateur nous allons pour l'instant mettre toujours 1. \(nous 
 
 le resultat à avoir: [https://youtu.be/KLw5z\_e6kBQ](https://youtu.be/KLw5z_e6kBQ)
 
-### A rendre en fin de seance par email
+### A rendre en fin de seance par moodle \(voir partie depot\)
 
 un fichier zip contenant:
 
