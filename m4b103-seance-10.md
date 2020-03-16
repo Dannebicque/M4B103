@@ -134,8 +134,6 @@ pour l'Id de l'utilisateur nous allons pour l'instant mettre toujours 1. \(nous 
 
 le resultat à avoir: [https://youtu.be/KLw5z\_e6kBQ](https://youtu.be/KLw5z_e6kBQ)
 
-correction de la premiere partie: [https://youtu.be/1K5LC1eN8vA](https://youtu.be/1K5LC1eN8vA)
-
 ### A rendre en fin de seance par email
 
 un fichier zip contenant:
