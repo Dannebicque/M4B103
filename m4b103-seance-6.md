@@ -270,6 +270,10 @@ Vous pouvez tester directement depuis cette page le bon fonctionnement, et l'ajo
 
 #### Utilisation de PostMan
 
+{% hint style="info" %}
+[https://amethyste16.wordpress.com/2016/02/24/tutoriel-postman/](https://amethyste16.wordpress.com/2016/02/24/tutoriel-postman/)
+{% endhint %}
+
 Cependant, nous allons utiliser [PostMan](https://www.postman.com/) afin d'effectuer des tests et de trouver les requêtes qui vous seront nécessaires pour l'application mobile. Postman propose une version gratuite permettant de tester une API.
 
 Un premier test pourrait ressembler à la vue ci-dessous pour récupérer les données de la table coordonnées.
