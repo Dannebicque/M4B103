@@ -33,7 +33,7 @@ premier test :
 ```text
 var i=0;
 setInterval(function(){
-    $('#zoneinfo').html("ça marche :"+i);
+    $$('#zoneinfo').html("ça marche :"+i);
     i++;
 },5000);
 
