@@ -6,7 +6,7 @@ description: poursuite de la séance du 3 mars (App mobile)
 
 ### Exercice 1: Remise à plat de la partie front
 
-Nous considérerons que la partie boussole fonctionne. voir la video de correction: xxxxxxx
+Nous considérerons que la partie boussole fonctionne. voir la video de correction : [https://youtu.be/92Cz2rECJRQ](https://youtu.be/92Cz2rECJRQ)
 
 ### Exercice 2: Gestion du timer avec le bouton d'activation du traker
 
@@ -133,6 +133,8 @@ Framework7.request.get('http://149....82/mmiTrack/save.php?longi=48...&lat=...&i
 pour l'Id de l'utilisateur nous allons pour l'instant mettre toujours 1. \(nous allons traquer un seul utilisateur pour l'instant\)
 
 le resultat à avoir: [https://youtu.be/KLw5z\_e6kBQ](https://youtu.be/KLw5z_e6kBQ)
+
+correction de la premiere partie: [https://youtu.be/1K5LC1eN8vA](https://youtu.be/1K5LC1eN8vA)
 
 ### A rendre en fin de seance par email
 
