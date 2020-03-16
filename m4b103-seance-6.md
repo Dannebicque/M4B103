@@ -272,6 +272,8 @@ Vous pouvez tester directement depuis cette page le bon fonctionnement, et l'ajo
 
 {% hint style="info" %}
 [https://amethyste16.wordpress.com/2016/02/24/tutoriel-postman/](https://amethyste16.wordpress.com/2016/02/24/tutoriel-postman/)
+
+[https://www.youtube.com/watch?v=juldrxDrSH0&list=PLhW3qG5bs-L-oT0GenwPLcJAPD\_SiFK3C](https://www.youtube.com/watch?v=juldrxDrSH0&list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C)
 {% endhint %}
 
 Cependant, nous allons utiliser [PostMan](https://www.postman.com/) afin d'effectuer des tests et de trouver les requêtes qui vous seront nécessaires pour l'application mobile. Postman propose une version gratuite permettant de tester une API.
