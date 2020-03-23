@@ -2,7 +2,9 @@
 
 correction séance précédente \(seance 10\): [https://youtu.be/1K5LC1eN8vA](https://youtu.be/1K5LC1eN8vA)
 
-## Partie Carte de suivi des concurrents
+## Partie Carte de suivi des concurrents 
+
+cette partie peut etre faite même si votre appli mobile ne sauve pas encore vos données GPS
 
 ![](.gitbook/assets/capture-de-cran-2020-03-23-a-17.21.38.png)
 
@@ -123,6 +125,10 @@ Modifiez votre carte pour avoir des marqueurs différents de celui par defaut
 Assurez vous d'avoir des données de sauvegardées dans votre table "traceurs" 
 
 ![](.gitbook/assets/capture-de-cran-2020-03-23-a-18.12.08.png)
+
+si vous n'avez pas encore de data dans votre base, vous pouvez en récupérer ici
+
+{% file src=".gitbook/assets/traceurs.csv" %}
 
 créez un fichier recup.php qui permet d'afficher les données de la table "traceur" sous forme d'un json en fonction de l'id passé dans l'url  \(ex:    http://........recup.php?id=1  \)
 
