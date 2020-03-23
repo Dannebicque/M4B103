@@ -137,11 +137,14 @@ $requete = 'SELECT * FROM traceurs where _user_id=' . $id ;
 
 $tous = $bd->query($requete);
 
-echo json_encode($tous);
+$tableau=$tous->fetchAll();
 
+echo json_encode($tableau);
 
 ?>
 ```
+
+![](.gitbook/assets/capture-de-cran-2020-03-23-a-18.43.53.png)
 
 modifiez la page de la carte google de maniere à afficher les données récupérées par recup.php à la place du tableau écrit en dur dans l'exercice 1.  recup.php devra récupérer les informations du coureur dont l'id sera passée dans l'URL  \(ex:    http://........recup.php?id=1  \)
 
