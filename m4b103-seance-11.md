@@ -120,7 +120,7 @@ Modifiez votre carte pour avoir des marqueurs différents de celui par defaut
 
 ## Exercice 2
 
-Assurez vous d'avoir des données de sauvegardées dans votre table "traceur" 
+Assurez vous d'avoir des données de sauvegardées dans votre table "traceurs" 
 
 ![](.gitbook/assets/capture-de-cran-2020-03-23-a-18.12.08.png)
 
@@ -149,9 +149,11 @@ modifiez la page de la carte google de maniere à afficher les données récupé
 
 Proposez sur le site la possibilité:  
 
-1\)soit d'afficher la trace d'un des concurrents en cliquant  sur une liste des concurrents afficher sur la page
+![](.gitbook/assets/capture-de-cran-2020-03-23-a-18.27.46.png)
 
-2\) soit d'afficher la derniere position de tous les concurrents \(assurez vous d'avoir plusieurs enregistrements pour plusieurs concurrents\)
+1\)soit d'afficher la trace d'un des concurrents en particulier en cliquant  sur une liste des concurrents afficher sur la page \(ici à droite en bleu\)
+
+2\) soit d'afficher la derniere position de tous les concurrents \(ici le bouton rouge\) \(assurez vous d'avoir plusieurs enregistrements pour plusieurs concurrents\)
 
 3\) réflechir à un systeme qui permettrait de rafraichir régulièrement la carte \(toute les 30s\) pour voir les marqueurs des concurrents évoluer.
 
