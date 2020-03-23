@@ -1,2 +1,2 @@
-# M4B103-séance-14 éval
+# M4B103-séance-12 finalisation et éval
 
