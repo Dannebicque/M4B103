@@ -58,7 +58,7 @@ $(document).ready(function(){
 
 cet exemple doit fonctionner en mode 'développeur' \(avec un trademarke sur l'image\) car nous n'avons pas utilisé une 'api Key' pour l'exploiter.  cette api key est récupérable dans la console de google mais il est nécessaire d'ouvrir un compte facturable. Je vous montre l'interface ci-dessous, mais vu les conditions actuelles d'enseignement nous ne prendrons pas le temps de vous ouvrir des comptes, nous resterons donc en mode 'developpeur'.  Vous pourrez de votre côté regarder comment fonctionne la mise en place d'une api Key. voir: [https://cloud.google.com/docs/authentication/api-keys?hl=Fr&visit\_id=637205730503214335-1912155874&rd=1](https://cloud.google.com/docs/authentication/api-keys?hl=Fr&visit_id=637205730503214335-1912155874&rd=1)
 
-![](.gitbook/assets/capture-de-cran-2020-03-23-a-17.37.12.png)
+![](.gitbook/assets/capture-de-cran-2020-03-23-a-19.51.08.png)
 
 ### Ajouter des marqueurs
 
