@@ -166,3 +166,7 @@ Proposez sur le site la possibilité:
 
 3\) réflechir à un systeme qui permettrait de rafraichir régulièrement la carte \(toute les 30s\) pour voir les marqueurs des concurrents évoluer.
 
+## rendu fin de seance
+
+avant 11h30 vous devez déposer sur moodle \(module M4B103devMobile\) un fichier texte contenant l'URL de votre site tracker:   peut importe l'avancée, ce lien sert uniquement à accéder à votre travail fait ou à venir.
+
