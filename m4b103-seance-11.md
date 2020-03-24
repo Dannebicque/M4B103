@@ -32,7 +32,7 @@ Tester déjà l'affichage d'une map \(centrée sur Troyes\)  et d'un marqueur \(
 <h1>Tracker de course MMI</h1>
 <h3>suivez nos participants en direct</h3>
 
-<div id="macarte">	... </div>
+<div id="map">	... </div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
 
@@ -41,14 +41,22 @@ Tester déjà l'affichage d'une map \(centrée sur Troyes\)  et d'un marqueur \(
 
 <script type="text/javascript">
 	
-$(document).ready(function(){
+	$(document).ready(function(){
 
-  var map = new google.maps.Map(document.getElementById('macarte'), {
-        zoom: 15,
-        center: {lat: 48.3, lng: 4.0833}
-        });
- 
- 	 new google.maps.Marker({ position: {lat: 48.310776, lng: 4.103562} , map: macarte	});
+		 var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 15,
+    center:  {lat: 48.3, lng: 4.0833}
+  });
+
+
+ 	 new google.maps.Marker({
+    position: {lat: 48.3009677693572, lng: 4.08618091623638} ,
+    map: map
+  }); 
+
+	})
+
+	
 
 </script>
 
