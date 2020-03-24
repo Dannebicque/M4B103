@@ -48,7 +48,7 @@ $(document).ready(function(){
         center: {lat: 48.3, lng: 4.0833}
         });
  
- 	 new google.maps.Marker({ position: {lat: 48.310776, lng: 4.103562} , map: map	});
+ 	 new google.maps.Marker({ position: {lat: 48.310776, lng: 4.103562} , map: macarte	});
 
 </script>
 
