@@ -111,6 +111,8 @@ $(document).ready(function(){
     });
      
   });
+  
+  });
 ```
 
 ### Modification de l'image d'un marqueur:
