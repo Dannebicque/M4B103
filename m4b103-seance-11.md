@@ -78,7 +78,7 @@ Voici un exemple d'affichage de plusieurs marqueurs depuis un tableau \(testez l
 	
 $(document).ready(function(){
 
-  var map = new google.maps.Map(document.getElementById('macarte'), {
+  var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 15,
         center: {lat: 48.3, lng: 4.0833}
         });
@@ -107,7 +107,7 @@ $(document).ready(function(){
 
    new google.maps.Marker({
     position: item ,
-    map: macarte
+    map: map
     });
      
   });
