@@ -2,7 +2,7 @@
 description: mise en oeuvre de l'application sur le mobile
 ---
 
-# M4B103-seance-7 \(2 mars\)
+# M4B103-seance-7
 
 ### exercice 1
 

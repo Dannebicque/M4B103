@@ -1,8 +1,8 @@
 ---
-description: poursuite de la séance du 3 mars (App mobile)
+description: (App mobile)
 ---
 
-# M4B103-seance-10 \(16 mars 11h\)
+# M4B103-seance-10 \(8 mars\)
 
 ### Exercice 1: Remise à plat de la partie front
 
