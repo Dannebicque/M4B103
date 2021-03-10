@@ -1,4 +1,4 @@
-# M4B103-seance-11 \(10 mars\)
+# M4B103-seance-11 \(24mars\)
 
 correction séance précédente \(seance 10\): [https://youtu.be/1K5LC1eN8vA](https://youtu.be/1K5LC1eN8vA)
 

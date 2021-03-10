@@ -127,6 +127,7 @@ pour envoyer les datas dans votre application vous pouvez utiliser:
 ```text
 ...
 Framework7.request.get('http://149....82/mmiTrack/save.php?longi=48...&lat=...&iduser=1', function(data) {...});
+// ou avec jquery: $.ajax('http://149....82/mmiTrack/save.php?longi=48...&lat=...&i');
 ...
 ```
 

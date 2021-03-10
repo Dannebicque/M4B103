@@ -1,4 +1,4 @@
-# M4B103-seance-6
+# M4B103-seance-6 \(2 mars\)
 
 Réalisation d'une application "suivi de course". L'application doit permettre à un groupe de participants à une manifestation, d'être suivi en direct sur une map sur un  site web
 
